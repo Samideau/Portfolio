@@ -1,13 +1,13 @@
 "use client"
 import React from 'react'
-import dynamic from 'next/dynamic';
+//import dynamic from 'next/dynamic';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
+//const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
 import { Carousel } from 'react-responsive-carousel';
 
-const YoutubeSlide = ({ url, isSelected }) => (
+/*const YoutubeSlide = ({ url, isSelected }) => (
     <ReactPlayer width="100%" url={url} playing={isSelected} />
-);
+);*/
 
 const SkillsSection = () =>{
     /*const customRenderItem = (item, props) => <item.type {...item.props} {...props} />;
