@@ -3,6 +3,9 @@
 # Redirection
 index.html
 
+# Start Server
+start.sh
+
 # dependencies
 /node_modules
 /.pnp
