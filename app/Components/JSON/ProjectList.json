@@ -2,7 +2,7 @@
 {
     "title": "Test Title 1",
     "description": "Test Desc 1",
-    "image": "/images/projects/test1.png",
+    "image": "./images/projects/test1.png",
     "webUrl": "https://theo-juvigne.itch.io/scolopendra",
     "previewUrl": "/",
     "tag": ["All", "Unreal"]
@@ -10,7 +10,7 @@
 {
     "title": "Test Title 2",
     "description": "Test Desc 2",
-    "image": "/images/projects/test2.png",
+    "image": "./images/projects/test2.png",
     "webUrl": "/",
     "previewUrl": "/",
     "tag": ["All", "Unity"]
@@ -18,7 +18,7 @@
 {
     "title": "Test Title 3",
     "description": "Test Desc 3",
-    "image": "/images/projects/test3.png",
+    "image": "./images/projects/test3.png",
     "webUrl": "https://samido.itch.io/team23-shiningsoul",
     "previewUrl": "/",
     "tag": ["All", "Others"]
