@@ -7,8 +7,8 @@ const ProjectsSection = () => {
   console.log(projectsData);
   return (
     <div>
-			<h2 className="text-center text-4xl font-bold text-white mt-4">My Projects</h2>
-			<div className="gird md:grid-cols-3 gap-8 md:gap-12">
+			<h2 className="text-center text-4xl font-bold text-white mt-4 mb-4">My Projects</h2>
+			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-5">
 				{projectsData.map((project, index) => 
 					<ProjectCard 
 						key={index} 
