@@ -8,7 +8,7 @@
     "tag": ["All", "Unreal"]
 },
 {
-    "title": "Test Title 2",
+    "title": "Lucid",
     "description": "Test Desc 2",
     "image": "/Images/projects/test2.png",
     "webUrl": "/",
@@ -16,7 +16,7 @@
     "tag": ["All", "Unity"]
 },
 {
-    "title": "Test Title 3",
+    "title": "Shining Soul",
     "description": "Test Desc 3",
     "image": "/Images/projects/test3.png",
     "webUrl": "https://samido.itch.io/team23-shiningsoul",
