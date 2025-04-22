@@ -7,8 +7,9 @@ const ProjectsSection = () => {
 	const [projectsData, setProjectsData] = useState([]);
 
 	useEffect(() => {
-		import(`./JSON/ProjectList.json`)
-			.then((res) => setProjectsData(res.default))
+		fetch(`/JSON/ProjectList.json`)
+			.then(res => res.json())
+			.then(res => setProjectsData(res))
 			.catch(_ => null);
 	}, []);
 
