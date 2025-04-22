@@ -1,9 +1,17 @@
-import React from 'react';
+"use client"
+import React, {useState, useEffect} from 'react';
 import ProjectCard from './ProjectCard';
-import projectsData from "./JSON/ProjectList.json";
-
+//import projectsData from "./JSON/ProjectList.json";
 
 const ProjectsSection = () => {
+	const [projectsData, setProjectsData] = useState([]);
+
+	useEffect(() => {
+		import(`./JSON/ProjectList.json`)
+			.then((res) => setProjectsData(res.default))
+			.catch(_ => null);
+	}, []);
+
   console.log(projectsData);
   return (
     <div>
