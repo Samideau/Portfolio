@@ -2,7 +2,7 @@ import React from 'react';
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline';
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description, webUrl, previewUrl}) => {
+const ProjectCard = ({ imgUrl, title, description, languages, webUrl, previewUrl}) => {
   return (
     <div>
       <div 
@@ -19,7 +19,7 @@ const ProjectCard = ({ imgUrl, title, description, webUrl, previewUrl}) => {
 				</div>
       </div>
 			<div className="text-white rounded-b-xl mt-1 bg-[#181818] py-6 px-4">
-				<h5 className="text-xl font-semibold mb-2">{title}</h5>
+				<h5 className="text-xl font-semibold mb-2">{`[${languages}] ${title}`}</h5>
 				<p className="text-[#ADB7BE]">{description}</p>
 			</div>
 		</div>
